@@ -46,7 +46,7 @@ export const Services = () => {
 
         {/* Rows */}
         <div className="flex flex-col gap-24">
-          {services.map((service, i) => (
+          {services.map((service) => (
             <div
               key={service.title}
               className={cn(

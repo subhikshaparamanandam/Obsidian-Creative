@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
-import { cn } from "../lib/utils";
 
 const NavLinks = [
   { name: "Home", href: "#hero" },
@@ -11,16 +10,7 @@ const NavLinks = [
 ];
 
 export const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <nav className="fixed top-4 left-0 right-0 z-50 px-6 md:px-12 flex justify-center">

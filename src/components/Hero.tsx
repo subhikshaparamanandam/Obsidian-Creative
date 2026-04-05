@@ -1,7 +1,6 @@
 import { motion } from "motion/react";
 import { ArrowUpRight, Play } from "lucide-react";
 import { BlurText } from "./BlurText";
-import { cn } from "../lib/utils";
 
 export const Hero = () => {
   return (

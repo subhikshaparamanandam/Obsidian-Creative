@@ -1,0 +1,5 @@
+src/components/ContactFooter.tsx(1,1): error TS6133: 'motion' is declared but its value is never read.
+src/components/Hero.tsx(4,1): error TS6133: 'cn' is declared but its value is never read.
+src/components/Navbar.tsx(3,1): error TS6133: 'cn' is declared but its value is never read.
+src/components/Navbar.tsx(14,10): error TS6133: 'isScrolled' is declared but its value is never read.
+src/components/Services.tsx(49,35): error TS6133: 'i' is declared but its value is never read.
